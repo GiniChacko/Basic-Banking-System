@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+* {
+  box-sizing: border-box;
+}
+
+header,
+section {
+  overflow-x: hidden;
+}
+
+footer {
+  background: black;
+  overflow-x: hidden;
+  padding: 5vmin 18vmin;
+  font-family: "Rubik", sans-serif;
+}
+
+footer p > span {
+  color: linen;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: white !important;
+}
+
+footer .input-group .input-group-text {
+  background: var(--bggradient);
+  border: none;
+}
+
+footer .column i {
+  color: #dd2476;
+}
+
+.fa-instagram{
+  font-size: 50px;
+}
+
+.fa-linkedin{
+  font-size: 50px;
+}
+
+.fa-github{
+  font-size: 50px;
+}
+
+footer .column i + i {
+  padding: 0 0.5em;
+}
+

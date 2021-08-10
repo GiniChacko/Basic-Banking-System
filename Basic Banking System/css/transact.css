@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  h2  {
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+  }
+
+  .ft {
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+  }
+  .content-table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 25px 0;
+    font-family: "Rubik", sans-serif;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .content-table thead tr {
+    background-color: rgba(0, 0, 0, 0.767);
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    height: 50px;
+  }
+
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+    
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid black;
+  }
+  
+ .card {
+    margin-top:30px;
+    background-image:url('../images/bg-3.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    border-radius:20px;
+    padding:10px;
+    width:100%;
+ }
+
+ .card-body h3{
+    color:black; 
+    font-weight: bold; 
+    border-style :groove; 
+    background-color:#c0c0c0;
+    border-radius:20px;
+ }
+
+ .card-body label{
+    color:black; 
+    font-size:25px; 
+    font-weight: bold;
+ }
+
+ .card-body font{
+    border:black; 
+    border-width:3px;
+    border-radius: 10px;
+    border-color: black; 
+    border-style:groove; 
+    background-color: white; 
+    color:black; 
+    font-size:20px;
+ }
+  .fa-bars {
+    color: black !important;
+    font-size: 40px !important;
+  }
+    a {
+    font-family: "Rubik", sans-serif;
+    font-size: 0.9em;
+    color: black !important;
+  }
+  .navbar-toggler {
+    border: 0 !important;
+    outline: none !important;
+    padding: initial !important;
+  }
+  
+  .nav-item {
+    margin-left: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .message-wrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #f08080 !important;
+    cursor: pointer;
+    box-shadow: 0 7px #8b0000;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+  @media only screen and (orientation: portrait){
+    *{
+      letter-spacing: 1px;
+    }
+  }
+
+  button:focus {
+    outline: none !important;
+  }

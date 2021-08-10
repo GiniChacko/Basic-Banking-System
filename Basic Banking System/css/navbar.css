@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+  }
+
+.fa-bars {
+    color: #fff;
+    font-size: 40px !important;
+    
+  }
+  a {
+    font-family: "Rubik", sans-serif;
+    font-size: 0.9em;
+    color: whitesmoke;
+  }
+  .navbar-toggler {
+    border: 0 !important;
+    outline: none !important;
+    padding: initial !important;
+  
+  }
+  
+  .nav-item {
+    margin-left: 40px;
+    margin-bottom: 10px;
+    background-color:white;
+    
+  }
+.nav-link {
+    color: #fff;
+    font-size: 17px;
+    padding: 0 0 5px 0 !important;
+    display: unset !important;
+  }
+  
+  .nav-link:hover {
+    color: blue;
+  }
+  
